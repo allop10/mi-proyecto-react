@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // 👈 ESTA LÍNEA ACTIVA EL @/
+      '@': path.resolve(__dirname, './src'), // 
+      
     },
   },
 })
